@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/main.js" defer></script>
+    <title>P1 PSI Bruno Henrique</title>
+</head>
+
+<body id="pagina">
+    <header>
+        <img src="./images/logoimage.png" alt="Logo do filme Star Wars em amarelo com fundo preto">
+        <h1>Gosta de Star Wars?</h1>
+        <p>Aqui você pode consultar fatos interessantes sobre os mais diversos personagens!</p>
+    </header>
+
+    <nav aria-labelledby="acessibilidade">
+        <p id="acessibilidade">Menu de acessibilidade</p>
+
+        <div>
+            <button onclick="alterarFonte(-2)">A -</button>
+            <button onclick="alterarFonte(2)">A +</button>
+            <button onclick="restaurarFonte()">Restaurar Fonte</button>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Seja bem vindo ao SW-Seeker!</h2>
+
+        <section class="container" aria-label="Seção de ajuda">
+            <h3>Como funciona?</h3>
+            <p>
+                Para realizar uma busca você pode inserir parcialmente o nome de um personagem ou apenas as letras
+                inícais.
+            </p>
+
+            <ol>
+                <li>Não digitar nada na pesquisa apresentará 10 personagens.</li>
+                <li>Caso queira um personagem especifico de nome dificil digite apenas parte do nome.</li>
+            </ol>
+        </section>
+
+        <section aria-labelledby="barra-pesquisa" class="barra-pesquisa">
+            <label for="buscar" id="barra-pesquisa"> Buscar personagem
+                <input name="buscar" type="search" id="buscar" placeholder="Digite o nome do personagem" required>
+            </label>
+
+            <button id="confirmar" onclick="showCard()">Pesquisar</button>
+        </section>
+
+        <section id="cards" aria-label="Apresentação dos cards">
+            
+        </section>
+    </main>
+
+    <footer>
+        <small> P1-PSI - Bruno Henrique Rosa da Silva - 3º semestre Sistemas para internet</small>
+    </footer>
+</body>
+</html>

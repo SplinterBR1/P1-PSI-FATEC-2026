@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+:root {
+    --bgcolor: #000000;
+    --surface: #12192cc7;
+    --surface3: #18284ed7;
+    --text: #e5e7eb;
+    --border: rgba(255, 255, 255, 0.322);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+
+.container {
+    padding: 2em;
+    border-radius: 20px;
+    color: white;
+    border: solid 1px var(--border);
+
+    li {
+        margin: 2em;
+    }
+}
+
+header {
+    padding: 1em;
+    background-color: var(--bgcolor);
+    color: var(--text);
+    text-align: center;
+    font-size: 28px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: var(--surface);
+    color: var(--text);
+    position: sticky;
+    top: 0;
+    align-items: end;
+
+    button {
+        margin: 5px;
+        padding: 5px 10px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
+main {
+    color: white;
+    border-radius: 20px;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 3em;
+    gap: 20px;
+
+    h2 {
+        font-size: 2em;
+        font-family: monospace;
+    }
+}
+
+#cards {
+    padding: 2em;
+    color: black;
+    gap: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-weight: bold;
+
+    input {
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+.barra-pesquisa {
+    background-image: url(../images/fundo.jpg);
+    background-repeat: no-repeat;
+    padding: 2em;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    #confirmar {
+        margin-top: 15px;
+        padding: 10px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+
+.card {
+    min-width: 400px;
+    max-width: 450px;
+    color: black;
+    text-align: left;
+    padding: 10px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(187, 187, 187, 0.644);
+
+    .nome-personagem {
+        color: rgb(255, 255, 255);
+        border-bottom: solid 2px white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 20px 0 10px 0;
+        font-size: 30px;
+    }
+
+    .description {
+        border-radius: 20px;
+        color: white;
+        gap: 20px;
+
+        p {
+            background-color: var(--surface);
+            border-radius: 10px;
+        }
+    }
+
+}
