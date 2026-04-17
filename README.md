@@ -29,8 +29,8 @@ Criar uma aplicação web utilizando **JavaScript puro (Vanilla JS)** para consu
 
 ## 🔗 Acesse o Projeto
 
-- 💻 GitHub: [COLE AQUI O LINK]
-- 🌐 GitHub Pages: [COLE AQUI O LINK]
+- 💻 GitHub: https://github.com/SplinterBR1/P1-PSI-FATEC-2026
+- 🌐 GitHub Pages: https://splinterbr1.github.io/P1-PSI-FATEC-2026
 
 ---
 

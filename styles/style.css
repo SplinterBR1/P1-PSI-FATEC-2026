@@ -111,6 +111,7 @@ label {
 .barra-pesquisa {
     background-image: url(../images/fundo.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 2em;
     border-radius: 20px;
     color: white;
@@ -132,7 +133,7 @@ label {
     max-width: 450px;
     color: black;
     text-align: left;
-    padding: 10px;
+    padding: 25px;
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-radius: 20px;

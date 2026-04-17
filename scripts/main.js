@@ -1,7 +1,6 @@
 'use strict'
 const input = document.getElementById('buscar')
 const cards = document.getElementById('cards')
-const botaoContraste = document.getElementById("botao-contraste")
 
 async function showCard() {
     cards.textContent = ''
@@ -37,15 +36,9 @@ async function showCard() {
         const eyeColor = document.createElement('p')
         eyeColor.textContent = 'Cor dos olhos: ' + personagem.eye_color
 
-        card.appendChild(title)
-        description.appendChild(gender)
-        description.appendChild(height)
-        description.appendChild(hairColor)
-        description.appendChild(skinColor)
-        description.appendChild(eyeColor)
-        card.appendChild(description)
+        description.append(gender, height, hairColor, skinColor, eyeColor)
+        card.append(title, description)
         cards.appendChild(card)
-        console.log(personagem)
     })
 }
 
