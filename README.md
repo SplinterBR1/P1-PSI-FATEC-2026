@@ -41,6 +41,7 @@ A aplicação permite buscar personagens em uma API pública e exibir suas infor
 - Requisições HTTP
 - Manipulação de elementos HTML via JavaScript
 - Interatividade com o usuário
+- API utilizada: https://swapi.dev/api/
 
 ---
 
@@ -57,6 +58,19 @@ Confira a publicação sobre este projeto:
 👉 [COLE AQUI O LINK DO POST]
 
 ---
+## Critérios
+* [x] Foi criado o campo de busca? (0,5)
+* [x] Os cards são criados dinamicamente? (1,5)
+* [x] Os cards são criados dependendo da busca? (1,5)
+* [x] Foi utilizado métodos para criar os novos elementos HTML? (1,5)
+* [x] O consumo de API foi feito usando o `fetch()`? (1,5)
+* [ ] Incluiu tratamento de erro no campo de busca? (0,5)
+* [x] Está responsivo? (1,0)
+* [x] Foi criado o README com informações do projeto? (1,0)
+* [x] Foi habilitado o github Pages? (0,5)
+* [ ] Foi publicado no linkedIn? (0,5)
+
+---
 
 ## 👨‍🏫 Disciplina
 
@@ -64,3 +78,10 @@ Confira a publicação sobre este projeto:
 Prof. Fernando Leonid – 2026
 
 ---
+
+## Observações
+
+- API utilizada: https://swapi.dev/api/
+- Página criada para buscar personagens de Star Wars utilizando os conceitos de API ensinados em aula
+- A página funciona utilizando um input para buscar por personagens especificos de Star Wars digitados pelo usuário, caso o usuario nao digite nada por padrão são retornados os 10 primeiros valores obtidos da API.
+- Codigo completamente escrito a mão sem uso de IA
